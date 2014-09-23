@@ -7,33 +7,16 @@
     <script src="Car\Car.js"></script>
     <script src="Track\Track.js"></script>
     <script src="Weekend\Weekend.js"></script>
+    <script src="test.js"></script>
     <script>
-        var drivers = [{
-            driver: {name: 'Test pilot 1'},
-            car: new Car('m1', 7,7,7),
-            team: {name: 'mclaren'}
-        },{
-            driver: {name: 'Test pilot 2'},
-            car: new Car('m1', 4,7,5),
-            team: {name: 'ferrari'}
-        },{
-            driver: {name: 'Test pilot 3'},
-            car: new Car('m1', 7,6,6),
-            team: {name: 'willhams'}
-        },{
-            driver: {name: 'Test pilot 4'},
-            car: new Car('m1', 7,8,6),
-            team: {name: 'sauber'}
-        }];
-        var we = new Weekend(new Track('Test Track', 1,2,2),drivers);
-        we.qualification();
-        we.race();
-        we.print();
-
+        var test = new Test();
+        test.weekendTest();
     </script>
+
+    <h4>Cevert test page!</h4>
 </head>
 <body>
-<h4>Cevert test page!</h4>
+
 
 </body>
 </html>
