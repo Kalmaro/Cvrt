@@ -7,7 +7,8 @@ var Weekend = function (track, participants) {
         var carKs = p.car.koeff();
         drivers.push({
             name: p.driver.name,
-            team: p.team.name,
+            id: p.driver.id,
+            team: p.team,
             koeff: (trackKs[0] * carKs[0] + trackKs[1] * carKs[1] + trackKs[2] * carKs[2]) / 3
         });
     });

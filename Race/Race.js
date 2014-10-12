@@ -42,11 +42,11 @@ var Race = function(drivers){
     this.print = function(){
         console.log('Race results: \n  Classified:');
         classified.forEach(function(driver,index){
-            console.log(index + 1 + '.  ' + driver.name + '\t' + driver.team + '\t' + driver.racePos);
+            console.log(index + 1 + '.  ' + driver.name + '\t' + driver.team.name + '\t' + driver.racePos);
         });
         console.log('Not Classified');
         notClassified.forEach(function(driver,index){
-            console.log('\t  ' + driver.name + '\t' + driver.team + '\t' + driver.racePos);
+            console.log('\t  ' + driver.name + '\t' + driver.team.name + '\t' + driver.racePos);
         });
     }
 };
