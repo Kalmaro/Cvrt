@@ -3,7 +3,7 @@ var Qualification =  function(drivers){
 
     this.doQualification = function(){
         drivers.forEach(function(driver){
-            driver.qualRes = driver.koeff * Math.random()*(1 - 0.7 + 1) + 0.7;
+            driver.qualRes = driver.koeff * (Math.random()*(1 - 0.7 + 1) + 0.7);
         });
 
         drivers.sort(function(d1, d2){

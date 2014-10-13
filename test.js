@@ -76,23 +76,56 @@ Test.prototype.raceToString = function(raceRes, n, t){
 };
 
 Test.prototype.getDriversMock = function(){
-  return [{
-      driver: {name: 'Test pilot 1', id: 'd1'},
+//  return [{
+//      driver: {name: 'Test pilot 1', id: 'd1'},
+//      car: new Car('m1', 7,7,7),
+//      team: {name: 'mclaren', id: 't1'}
+//  },{
+//      driver: {name: 'Test pilot 2', id: 'd2'},
+//      car: new Car('m1', 4,7,5),
+//      team: {name: 'ferrari', id: 't2'}
+//  },{
+//      driver: {name: 'Test pilot 3', id: 'd3'},
+//      car: new Car('m1', 7,6,6),
+//      team: {name: 'willhams', id: 't3'}
+//  },{
+//      driver: {name: 'Test pilot 4', id: 'd4'},
+//      car: new Car('m1', 7,8,6),
+//      team: {name: 'sauber', id: 't4'}
+//  }];
+    return [{
+      driver: new Driver('Massa', 'd1', 0.8),
       car: new Car('m1', 7,7,7),
-      team: {name: 'mclaren', id: 't1'}
+      team: {name: 'wilhams', id: 't1'}
   },{
-      driver: {name: 'Test pilot 2', id: 'd2'},
-      car: new Car('m1', 4,7,5),
-      team: {name: 'ferrari', id: 't2'}
+      driver: new Driver('Bottas', 'd2', 0.86),
+      car: new Car('m1', 7,7,7),
+      team: {name: 'wilhams', id: 't1'}
   },{
-      driver: {name: 'Test pilot 3', id: 'd3'},
+      driver: new Driver('Magnussen', 'd3', 0.76),
       car: new Car('m1', 7,6,6),
-      team: {name: 'willhams', id: 't3'}
+      team: {name: 'Mclaren', id: 't2'}
   },{
-      driver: {name: 'Test pilot 4', id: 'd4'},
-      car: new Car('m1', 7,8,6),
-      team: {name: 'sauber', id: 't4'}
-  }];
+        driver: new Driver('Button', 'd4', 0.76),
+        car: new Car('m1', 7,6,6),
+        team: {name: 'Mclaren', id: 't2'}
+  }, {
+        driver: new Driver('Hamilton', 'd5', 0.8),
+        car: new Car('m1', 7,8,8),
+        team: {name: 'mercedess', id: 't3'}
+    },{
+        driver: new Driver('Rosberg', 'd6', 0.86),
+        car: new Car('m1', 7,7,7),
+        team: {name: 'mercedess', id: 't3'}
+    },{
+        driver: new Driver('Alonso', 'd7', 0.82),
+        car: new Car('m1', 7,6,6),
+        team: {name: 'Ferrari', id: 't4'}
+    },{
+        driver: new Driver('Raikonnen', 'd8', 0.9),
+        car: new Car('m1', 7,8,8),
+        team: {name: 'Ferrari', id: 't4'}
+    }]
 };
 
 

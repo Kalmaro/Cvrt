@@ -9,7 +9,7 @@ var Weekend = function (track, participants) {
             name: p.driver.name,
             id: p.driver.id,
             team: p.team,
-            koeff: (trackKs[0] * carKs[0] + trackKs[1] * carKs[1] + trackKs[2] * carKs[2]) / 3
+            koeff: ((trackKs[0] * carKs[0] + trackKs[1] * carKs[1] + trackKs[2] * carKs[2]) / 3)* p.driver.talent
         });
     });
 
