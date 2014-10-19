@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95cc999c-54c7-43b5-b5d5-b4a9f202a2a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Driver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team/Team.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Qualification/Qualification.js" afterPath="$PROJECT_DIR$/Qualification/Qualification.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Weekend/Weekend.js" afterPath="$PROJECT_DIR$/Weekend/Weekend.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -40,19 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="381" selection-end="381" vertical-scroll-proportion="0.29876977" vertical-offset="0" max-vertical-offset="569">
+            <state line="22" column="7" selection-start="578" selection-end="578" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="34" selection-start="3127" selection-end="3127" vertical-scroll-proportion="-0.34" vertical-offset="1496" max-vertical-offset="2329">
+            <state line="103" column="22" selection-start="3552" selection-end="3552" vertical-scroll-proportion="0.94285715" vertical-offset="1190" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -61,7 +57,7 @@
       <file leaf-file-name="Driver.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Driver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+            <state line="3" column="25" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -79,7 +75,7 @@
       <file leaf-file-name="Weekend.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Weekend/Weekend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1156">
+            <state line="38" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -97,7 +93,7 @@
       <file leaf-file-name="Team.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Team/Team.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -115,7 +111,7 @@
       <file leaf-file-name="Qualification.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Qualification/Qualification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="79" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="5" column="79" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -147,10 +143,10 @@
         <option value="$PROJECT_DIR$/Championship/Championship.js" />
         <option value="$PROJECT_DIR$/Team/Team.js" />
         <option value="$PROJECT_DIR$/Driver.js" />
-        <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/Qualification/Qualification.js" />
         <option value="$PROJECT_DIR$/Weekend/Weekend.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/test.js" />
       </list>
     </option>
   </component>
@@ -313,6 +309,14 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -321,14 +325,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -392,7 +388,11 @@
       <created>1413157503991</created>
       <updated>1413157503991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implement driver class">
+      <created>1413234398297</created>
+      <updated>1413234398297</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -430,7 +430,8 @@
     <MESSAGE value="first weekend implementation" />
     <MESSAGE value="move test from index.html to test.js" />
     <MESSAGE value="Implement championship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement championship" />
+    <MESSAGE value="implement driver class" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement driver class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -452,9 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Race/Race.js">
@@ -466,9 +465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Track/Track.js">
@@ -483,16 +480,16 @@
         <state line="998" column="0" selection-start="15758" selection-end="15758" vertical-scroll-proportion="0.0" vertical-offset="16835" max-vertical-offset="64651" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Race/Race.js">
+    <entry file="file://$PROJECT_DIR$/Championship/Championship.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Championship/Championship.js">
+    <entry file="file://$PROJECT_DIR$/Qualification/Qualification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
+        <state line="5" column="79" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
@@ -511,27 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Car/Car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="34" selection-start="3127" selection-end="3127" vertical-scroll-proportion="-0.34" vertical-offset="1496" max-vertical-offset="2329">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Qualification/Qualification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="79" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Weekend/Weekend.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1156">
@@ -539,9 +515,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Car/Car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Race/Race.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="381" selection-end="381" vertical-scroll-proportion="0.29876977" vertical-offset="0" max-vertical-offset="569">
+        <state line="22" column="7" selection-start="578" selection-end="578" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="22" selection-start="3552" selection-end="3552" vertical-scroll-proportion="0.94285715" vertical-offset="1190" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>

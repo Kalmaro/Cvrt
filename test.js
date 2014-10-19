@@ -76,23 +76,6 @@ Test.prototype.raceToString = function(raceRes, n, t){
 };
 
 Test.prototype.getDriversMock = function(){
-//  return [{
-//      driver: {name: 'Test pilot 1', id: 'd1'},
-//      car: new Car('m1', 7,7,7),
-//      team: {name: 'mclaren', id: 't1'}
-//  },{
-//      driver: {name: 'Test pilot 2', id: 'd2'},
-//      car: new Car('m1', 4,7,5),
-//      team: {name: 'ferrari', id: 't2'}
-//  },{
-//      driver: {name: 'Test pilot 3', id: 'd3'},
-//      car: new Car('m1', 7,6,6),
-//      team: {name: 'willhams', id: 't3'}
-//  },{
-//      driver: {name: 'Test pilot 4', id: 'd4'},
-//      car: new Car('m1', 7,8,6),
-//      team: {name: 'sauber', id: 't4'}
-//  }];
     return [{
       driver: new Driver('Massa', 'd1', 0.8),
       car: new Car('m1', 7,7,7),
