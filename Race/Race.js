@@ -1,3 +1,4 @@
+
 var Race = function(drivers){
     this.drivers = drivers;
 
@@ -6,7 +7,7 @@ var Race = function(drivers){
 
     var preResults = function(){
         drivers.forEach(function(driver){
-            var rand = Math.random()*10%10;
+            var rand = Math.randomInt(0,10);
             if(rand < 3){
                 driver.racePos = null;
             } else{
@@ -22,9 +23,7 @@ var Race = function(drivers){
                 notClassified.push(driver);
                 return;
             }
-            //return Math.floor(Math.random()*(max-min+1)+min);
-//            var rand = Math.floor(Math.random()*(1 - 0.5 + 1) + 0.5)
-            var rand = Math.random()*(1 - 0.5 + 1) + 0.5;
+            var rand = Math.randomFloat(0.5, 1);
             driver.racePos -= driver.koeff * rand;
             classified.push(driver);
         });
