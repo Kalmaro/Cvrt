@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95cc999c-54c7-43b5-b5d5-b4a9f202a2a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utils/Math.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MRSApp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Race/Race.js" afterPath="$PROJECT_DIR$/Race/Race.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team/Team.js" afterPath="$PROJECT_DIR$/Team/Team.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cvrt.iws" />
@@ -32,7 +29,7 @@
       <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2040">
+            <state line="81" column="12" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.0" vertical-offset="1256" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -92,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Weekend.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Weekend.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Weekend/Weekend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.7169811" vertical-offset="380" max-vertical-offset="1156">
+            <state line="38" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="787" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -104,16 +101,16 @@
       <file leaf-file-name="Car.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Car/Car.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="35" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
+            <state line="10" column="35" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Team.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Team.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Team/Team.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
+            <state line="10" column="1" selection-start="323" selection-end="324" vertical-scroll-proportion="0.4607046" vertical-offset="0" max-vertical-offset="369">
               <folding />
             </state>
           </provider>
@@ -142,15 +139,15 @@
         <option value="$PROJECT_DIR$/Track/Track.js" />
         <option value="$PROJECT_DIR$/Car/Car.js" />
         <option value="$PROJECT_DIR$/Championship/Championship.js" />
-        <option value="$PROJECT_DIR$/Team/Team.js" />
         <option value="$PROJECT_DIR$/Driver.js" />
         <option value="$PROJECT_DIR$/Qualification/Qualification.js" />
         <option value="$PROJECT_DIR$/Weekend/Weekend.js" />
-        <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/MRSApp/index.html" />
         <option value="$PROJECT_DIR$/Utils/Math.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Race/Race.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/Team/Team.js" />
       </list>
     </option>
   </component>
@@ -215,6 +212,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cvrt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cvrt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,28 +347,32 @@
       <created>1413748914306</created>
       <updated>1413748914306</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="math improve">
+      <created>1419379104142</created>
+      <updated>1419379104142</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24264121" sideWeight="0.67310786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24264121" sideWeight="0.67205167" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3268921" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -376,7 +391,8 @@
     <MESSAGE value="Implement championship" />
     <MESSAGE value="implement driver class" />
     <MESSAGE value="fix test" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix test" />
+    <MESSAGE value="math improve" />
+    <option name="LAST_COMMIT_MESSAGE" value="math improve" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -407,27 +423,6 @@
     <entry file="file://$PROJECT_DIR$/Qualification/Qualification.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="79" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Team/Team.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Car/Car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
@@ -483,7 +478,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Weekend/Weekend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.7169811" vertical-offset="380" max-vertical-offset="1156">
+        <state line="38" column="0" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="787" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Car/Car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="12" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.0" vertical-offset="1256" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team/Team.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="323" selection-end="324" vertical-scroll-proportion="0.4607046" vertical-offset="0" max-vertical-offset="369">
           <folding />
         </state>
       </provider>
