@@ -30,11 +30,11 @@ var Championship = function(title, id){
                 points: points
             };
         }
-        var team = teamChamp[driver.team.id];
+        var team = teamChamp[driver.team.id()];
         if(team){
             team.points += points;
         } else {
-            teamChamp[driver.team.id] = {
+            teamChamp[driver.team.id()] = {
                 team: driver.team,
                 points: points
             };

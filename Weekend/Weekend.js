@@ -4,12 +4,14 @@ var Weekend = function (track, participants) {
     var racerRes = null;
     participants.forEach(function (p) {
         var trackKs = track.koeff();
-        var carKs = p.car.koeff();
-        drivers.push({
-            name: p.driver.name,
-            id: p.driver.id,
-            team: p.team,
-            koeff: ((trackKs[0] * carKs[0] + trackKs[1] * carKs[1] + trackKs[2] * carKs[2]) / 3)* p.driver.talent
+        var carKs = p.car().koeff();
+        p.drivers().forEach(function(driver){
+            drivers.push({
+                name: driver.name,
+                id: driver.id,
+                team: p,
+                koeff: ((trackKs[0] * carKs[0] + trackKs[1] * carKs[1] + trackKs[2] * carKs[2]) / 3)* driver.talent
+            });
         });
     });
 

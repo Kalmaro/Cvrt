@@ -6,4 +6,4 @@
     math.randomFloat = function(min, max){
         return Math.random() * (max - min) + min;
     };
-})(this.Math)
+})(this.Math);
