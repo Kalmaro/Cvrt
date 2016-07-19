@@ -1,0 +1,7 @@
+{
+    "title": "MRS2500E",
+    "version": "1.0",
+    "modules":{
+        "test": "testModule.js"
+    }
+}

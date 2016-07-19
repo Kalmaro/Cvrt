@@ -1,3 +1,5 @@
-/**
- * Created by Billy on 6/18/16.
- */
+var Cevert = {};
+
+Cevert.object = function(){}
+
+//Cevert.prototype
