@@ -17,19 +17,43 @@
         xhr.send(null);
     }
 
+    function fireEvent(){
+        var event; // The custom event that will be created
+        var element = document.body;
+
+        if (document.createEvent) {
+            event = document.createEvent("HTMLEvents");
+            event.initEvent("modules-are-loaded", true, true);
+        } else {
+            event = document.createEventObject();
+            event.eventType = "modules-are-loaded";
+        }
+
+        event.eventName = "modules-are-loaded";
+
+        if (document.createEvent) {
+            element.dispatchEvent(event);
+        } else {
+            element.fireEvent(event.eventType, event);
+        }
+    }
+
     service.loadModule = function(name){
         var path = config.modules[name];
-        if(path){
-            DOMService.addScript(path);
-        } else {
-            throw new Error('Module has not been found!');
+        if(!path){
+           throw new Error('Module has not been found!');
         }
+        return DOMService.addScript(path);
     };
 
     service.loadAll = function(){
+        var scriptPromises = [];
         for(var name in config.modules){
-            DOMService.addScript(config.modules[name]);
+            scriptPromises.push(DOMService.addScript(config.modules[name]));
         }
+        Promise.all(scriptPromises).then(function(){
+            fireEvent();
+        });
     };
 
     service.addModule = function(module){

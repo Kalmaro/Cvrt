@@ -2,6 +2,7 @@
     "title": "MRS2500E",
     "version": "1.0",
     "modules":{
-        "test": "testModule.js"
+        "test": "testModule.js",
+        "race": "raceModule.js"
     }
 }

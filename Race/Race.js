@@ -1,5 +1,5 @@
-
 var Race = function(drivers){
+    var raceModule = moduleService.getModule('race');
     this.drivers = drivers;
 
     var classified = [];
@@ -30,12 +30,13 @@ var Race = function(drivers){
     };
 
     this.doRace = function(){
-        preResults();
-        results();
-        classified.sort(function(d1,d2){
-            return d1.racePos < d2.racePos ? -1 : d1.racePos > d2.racePos ? 1 : 0;
-        });
-        return [classified, notClassified];
+//        preResults();
+//        results();
+//        classified.sort(function(d1,d2){
+//            return d1.racePos < d2.racePos ? -1 : d1.racePos > d2.racePos ? 1 : 0;
+//        });
+//        return [classified, notClassified];
+        return raceModule.doRace(drivers, 30);
     };
 
     this.print = function(){
@@ -48,6 +49,8 @@ var Race = function(drivers){
             console.log('\t  ' + driver.name + '\t' + driver.team.name + '\t' + driver.racePos);
         });
     }
+
+
 };
 
 Race.prototype.version = function(){
