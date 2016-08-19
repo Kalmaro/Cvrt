@@ -5,13 +5,14 @@
 
     function loadConfig(path, cb){
         var xhr = new XMLHttpRequest();
+        var config = null;
         xhr.overrideMimeType('application/json');
         xhr.open('GET', path, true);
         xhr.onreadystatechange = function(data){
             if (xhr.readyState == 4 && xhr.status == "200") {
                 // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
                 config = JSON.parse(xhr.responseText);
-                cb && cb();
+                cb && cb(config);
             }
         };
         xhr.send(null);
@@ -46,6 +47,17 @@
         return DOMService.addScript(path);
     };
 
+    service.loadJsonData = function(name){
+        var path = config.data[name];
+        var promise = new Promise(function (resolve) {
+            loadConfig(path, function(data){
+                resolve(data);
+            })
+        });
+
+        return promise;
+    };
+
     service.loadAll = function(){
         var scriptPromises = [];
         for(var name in config.modules){
@@ -65,9 +77,10 @@
         return modules[name];
     };
 
-    loadConfig('Cvrt.cfg.json', function(){
-        console.log('Champ name:', config.title);
-        console.log('config version:', config.version);
+    loadConfig('Cvrt.cfg.json', function(cfg){
+        console.log('Champ name:', cfg.title);
+        console.log('config version:', cfg.version);
+        config = cfg;
         service.loadAll();
     });
 

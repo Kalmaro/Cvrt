@@ -13,11 +13,11 @@
 
     function attack(rp1, rp2) {
         console.log('attack:', rp1.p.name, rp1.positionKoeff, rp1.damage, rp1.status, 'vs', rp2.p.name, rp2.positionKoeff, rp2.damage, rp2.status);
-        if (Math.floor(Math.random())) {
+        if (Math.round(Math.random())) {
             rp1.positionKoeff = rp1.positionKoeff ^ rp2.positionKoeff;
             rp2.positionKoeff = rp1.positionKoeff ^ rp2.positionKoeff;
             rp1.positionKoeff = rp1.positionKoeff ^ rp2.positionKoeff;
-        } else if (Math.randomInt(0, 10) < 2) {
+        } else if (Math.randomInt(0, 100) < 10) {
             rp1.damage += Math.randomInt(5, 100);
             rp1.damage > 50 && (rp1.status = 'out');
 
@@ -78,8 +78,10 @@
         }
         var separatedResults = separateResults(racePositions);
         return [separatedResults[0].map(function(item){
+            item.p.positionKoeff = item.positionKoeff;
             return item.p;
         }), separatedResults[1].map(function(item){
+            item.p.positionKoeff = item.positionKoeff;
             return item.p;
         })];
     };

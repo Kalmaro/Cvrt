@@ -1,0 +1,288 @@
+{
+    "drivers": [
+        {
+            "name": "Seth N. Clabaugh",
+            "id": "seth-n-clabaugh",
+            "talent": 0.6,
+            "teamId": "wolf-1"
+        },
+        {
+            "name": "Cauã Cunha Pereira",
+            "id": "caua-cunha-pereira",
+            "talent": 0.62,
+            "teamId": "wolf-1"
+        },
+        {
+            "name": "Swen Ackermann",
+            "id": "swen-ackermann",
+            "talent": 0.67,
+            "teamId": "arden-1"
+        },
+        {
+            "name": "Dominique Morneau",
+            "id": "dominique-morneau",
+            "talent": 0.68,
+            "teamId": "arden-1"
+        },
+        {
+            "name": "Niko Kovanen",
+            "id": "niko-kovanen",
+            "talent": 0.66,
+            "teamId": "arden-1"
+        },
+        {
+            "name": "Florian Hoch",
+            "id": "florian-hoch",
+            "talent": 0.66,
+            "teamId": "prema-1"
+        },
+        {
+            "name": "Roger Achin",
+            "id": "roger-achin",
+            "talent": 0.7,
+            "teamId": "prema-1"
+        },
+        {
+            "name": "Victor Araujo Dias",
+            "id": "victor-araujo-dias",
+            "talent": 0.63,
+            "teamId": "coloni-1"
+        },
+        {
+            "name": "Harry Viljanen",
+            "id": "harry-viljanen",
+            "talent": 0.64,
+            "teamId": "coloni-1"
+        },
+        {
+            "name": "Franzen Terraspolini",
+            "id": "franzen-terraspolini",
+            "talent": 0.65,
+            "teamId": "coloni-1"
+        },
+        {
+            "name": "Senior Richer",
+            "id": "senior-richer",
+            "talent": 0.67,
+            "teamId": "wildcard-1"
+        },
+        {
+            "name": "Cai Fan",
+            "id": "cai-fan",
+            "talent": 0.67,
+            "teamId": "wildcard-1"
+        },
+        {
+            "name": "Wolfgang Eisenhauer",
+            "id": "wolfgang-eisenhauer",
+            "talent": 0.66,
+            "teamId": "carlin-1"
+        },
+        {
+            "name": "Dennis Schmitt",
+            "id": "dennis-schmitt",
+            "talent": 0.67,
+            "teamId": "carlin-1"
+        },
+        {
+            "name": "Erich Szaboliz",
+            "id": "erich-szaboliz",
+            "talent": 0.6,
+            "teamId": "carlin-1"
+        },
+        {
+            "name": "Otávio Almeida Rodrigues",
+            "id": "otavio-almeida-rodrigues",
+            "talent": 0.6,
+            "teamId": "fedzet-1"
+        },
+        {
+            "name": "Martin Šnajdr",
+            "id": "martin-najdr",
+            "talent": 0.6,
+            "teamId": "fedzet-1"
+        },
+        {
+            "name": "Florian Müller",
+            "id": "florian-muller",
+            "talent": 0.6,
+            "teamId": "eagle-1"
+        },
+        {
+            "name": "Nobuyoshi Nakayama",
+            "id": "nobuyoshi-nakayama",
+            "talent": 0.6,
+            "teamId": "eagle-1"
+        },
+        {
+            "name": "Adriano Bruno",
+            "id": "adriano-bruno",
+            "talent": 0.67,
+            "teamId": "ludvig-1"
+        },
+        {
+            "name": "Harley Porter",
+            "id": "harley-porter",
+            "talent": 0.64,
+            "teamId": "ludvig-1"
+        },
+        {
+            "name": "Tobiasz Dąbrowski",
+            "id": "tobiasz-d-browski",
+            "talent": 0.64,
+            "teamId": "almera-1"
+        },
+        {
+            "name": "Apolinario Sevilla Orozco",
+            "id": "apolinario-sevilla-orozco",
+            "talent": 0.62,
+            "teamId": "almera-1"
+        },
+        {
+            "name": "Harry Brown",
+            "id": "harry-brown",
+            "talent": 0.62,
+            "teamId": "manor-1"
+        },
+        {
+            "name": "Dylan Bolton",
+            "id": "dylan-bolton",
+            "talent": 0.61,
+            "teamId": "manor-1"
+        },
+        {
+            "name": "Joe E. Livingston",
+            "id": "joe-e-livingston",
+            "talent": 0.6,
+            "teamId": "manor-1"
+        },
+        {
+            "name": "Tazio Ludetti",
+            "id": "tazio-ludetti",
+            "talent": 0.62,
+            "teamId": "doubleq-1"
+        },
+        {
+            "name": "Aguri Okamura",
+            "id": "aguri-okamura",
+            "talent": 0.62,
+            "teamId": "doubleq-1"
+        },
+        {
+            "name": "Boris Gavrilov",
+            "id": "boris-gavrilov",
+            "talent": 0.64,
+            "teamId": "doubleq-1"
+        }
+    ],
+    "und": [
+        {
+            "name": "Lola",
+            "id": "lola-1",
+            "und": "3",
+            "aero": "9"
+        },
+        {
+            "name": "Dallara",
+            "id": "dallara-1",
+            "und": "2",
+            "aero": "4"
+        },
+        {
+            "name": "Magic",
+            "id": "magic-1",
+            "und": "9",
+            "aero": "5"
+        },
+        {
+            "name": "Ambbel",
+            "id": "ambbel-1",
+            "und": "3",
+            "aero": "4"
+        }
+    ],
+    "eng": [
+        {
+            "name": "toyota",
+            "id": "toyota-1",
+            "power": 5
+        },
+        {
+            "name": "audi",
+            "id": "audi-1",
+            "power": 7
+        },
+        {
+            "name": "vertex",
+            "id": "vertex-1",
+            "power": 4
+        }
+    ],
+    "team": [{
+        "name": "Wolf Racing",
+        "id": "wolf-1",
+        "undId": "dallara-1",
+        "engId": "audi-1"
+    },{
+        "name": "Arden Racing",
+        "id": "arden-1",
+        "undId": "lola-1",
+        "engId": "audi-1"
+    },{
+        "name": "Prema Team",
+        "id": "prema-1",
+        "undId": "lola-1",
+        "engId": "audi-1"
+    },{
+        "name": "Coloni",
+        "id": "coloni-1",
+        "undId": "lola-1",
+        "engId": "vertex-1"
+    },{
+        "name": "Wild Card Racing",
+        "id": "wildcard-1",
+        "undId": "lola-1",
+        "engId": "audi-1"
+    },{
+        "name": "Carlin",
+        "id": "carlin-1",
+        "undId": "lola-1",
+        "engId": "audi-1"
+    },{
+        "name": "Fedzet Racing",
+        "id": "fedzet-1",
+        "undId": "magic-1",
+        "engId": "toyota-1"
+    },{
+        "name": "Eagle",
+        "id": "eagle-1",
+        "undId": "magic-1",
+        "engId": "toyota-1"
+    },{
+        "name": "Ludvig",
+        "id": "ludvig-1",
+        "undId": "lola-1",
+        "engId": "audi-1"
+    },{
+        "name": "Almera",
+        "id": "almera-1",
+        "undId": "lola-1",
+        "engId": "audi-1"
+    },{
+        "name": "Manor",
+        "id": "manor-1",
+        "undId": "ambbel-1",
+        "engId": "audi-1"
+    },{
+        "name": "Double Q",
+        "id": "doubleq-1",
+        "undId": "ambbel-1",
+        "engId": "audi-1"
+    }],
+    "track": {
+        "name": "Australian",
+        "und": 2,
+        "aero": 1,
+        "eng": 1
+    }
+}

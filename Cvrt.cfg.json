@@ -4,5 +4,8 @@
     "modules":{
         "test": "testModule.js",
         "race": "raceModule.js"
+    },
+    "data": {
+        "f2500edata": "data/drivers.json"
     }
 }

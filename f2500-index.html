@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cevert test page!</title>
+    <script src="Utils\DOMService.js"></script>
+    <script src="Utils\moduleLoader.js"></script>
+    <script src="Race\Race.js"></script>
+    <script src="Qualification\Qualification.js"></script>
+    <script src="Car\Car.js"></script>
+    <script src="Team\Team.js"></script>
+    <script src="Track\Track.js"></script>
+    <script src="Weekend\Weekend.js"></script>
+    <script src="Championship\Championship.js"></script>
+    <script src="Utils\Math.js"></script>
+    <script src="Driver.js"></script>
+    <script src="f2500e.js"></script>
+    <script>
+        window.addEventListener('modules-are-loaded', function(){
+            var raceWeekend = new f2500eWeekend();
+            raceWeekend.init().then(raceWeekend.weekend);
+        });
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
