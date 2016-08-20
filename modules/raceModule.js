@@ -7,7 +7,7 @@
 
     function sortPosition(rps) {
         return rps.sort(function (a, b) {
-            return a.positionKoeff < b.positionKoeff ? -1 : a.positionKoeff === b.positionKoeff ? 0 : 1;
+            return a.positionKoeff < b.positionKoeff ? 1 : a.positionKoeff === b.positionKoeff ? 0 : -1;
         });
     }
 
