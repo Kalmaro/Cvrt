@@ -7,7 +7,12 @@ var f2500eWeekend = function(){
     var cars = {};
     var engines = {};
 
-
+    function partJsonMap(part){
+        return {
+            driverId: part.id,
+            teamId: part.team.id()
+        };
+    }
 
     this.init = function(){
         return moduleService.loadJsonData('f2500edata').then(function(d){
@@ -71,6 +76,42 @@ var f2500eWeekend = function(){
             race: res[1][0],
             out: res[1][1]
         };
-        console.log();
+        var dbJson = {
+            qual: resultToSave.qual.map(partJsonMap),
+            race: resultToSave.race.map(partJsonMap),
+            out: resultToSave.out.map(partJsonMap)
+        };
+        console.log(resultToSave);
+        console.log(JSON.stringify(dbJson));
+        return resultToSave;
     };
-}
+
+    this.print = function(res){
+        var sep = ' | ';
+        var str = '<h1>Qual:</h1>';
+        str += '<ul>';
+
+        res.qual.forEach(function(res, index){
+            str += '<li><span>' + (index + 1) + '</span><span>' + sep + res.name + '</span><span>'
+                + sep + res.team.name() + '</span><span>' + sep + res.team.car().title() + '</span><span>' + sep + res.qualRes + '</span><span></li>';
+        });
+
+        str += '</br></br>';
+        str += '<h1>Race results:</h1>';
+
+        res.race.forEach(function(res, index){
+            str += '<li><span>' + (index + 1) + '</span><span>'  + sep + res.name + '</span><span>'
+                + sep + res.team.name() + '</span><span>' + sep + res.team.car().title() + '</span><span>' + sep + res.positionKoeff + '</span><span></li>';
+        });
+
+        str += '</br></br>';
+        str += '<h1>Out:</h1>';
+
+        res.out.forEach(function(res, index){
+            str += '<li><span>' + (index + 1) + '</span><span>'  + sep + res.name + '</span><span>'
+                + sep + res.team.name() + '</span><span>' + sep + res.team.car().title() + '</span><span>' + sep + res.positionKoeff + '</span><span></li>';
+        });
+
+        document.body.innerHTML += str;
+    };
+};
