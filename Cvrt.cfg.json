@@ -6,6 +6,7 @@
         "race": "raceModule.js"
     },
     "data": {
-        "f2500edata": "data/drivers.json"
+        "f2500edata": "data/drivers.json",
+        "champ": "data/currentChamp.json"
     }
 }

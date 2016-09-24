@@ -15,31 +15,31 @@
         {
             "name": "Swen Ackermann",
             "id": "swen-ackermann",
-            "talent": 0.67,
+            "talent": 0.73,
             "teamId": "arden-1"
         },
         {
             "name": "Dominique Morneau",
             "id": "dominique-morneau",
-            "talent": 0.68,
+            "talent": 0.79,
             "teamId": "arden-1"
         },
         {
             "name": "Niko Kovanen",
             "id": "niko-kovanen",
-            "talent": 0.66,
+            "talent": 0.74,
             "teamId": "arden-1"
         },
         {
             "name": "Florian Hoch",
             "id": "florian-hoch",
-            "talent": 0.66,
+            "talent": 0.72,
             "teamId": "prema-1"
         },
         {
             "name": "Roger Achin",
             "id": "roger-achin",
-            "talent": 0.7,
+            "talent": 0.82,
             "teamId": "prema-1"
         },
         {
@@ -63,79 +63,79 @@
         {
             "name": "Senior Richer",
             "id": "senior-richer",
-            "talent": 0.67,
+            "talent": 0.79,
             "teamId": "wildcard-1"
         },
         {
             "name": "Cai Fan",
             "id": "cai-fan",
-            "talent": 0.67,
+            "talent": 0.75,
             "teamId": "wildcard-1"
         },
         {
             "name": "Wolfgang Eisenhauer",
             "id": "wolfgang-eisenhauer",
-            "talent": 0.66,
+            "talent": 0.71,
             "teamId": "carlin-1"
         },
         {
             "name": "Dennis Schmitt",
             "id": "dennis-schmitt",
-            "talent": 0.67,
+            "talent": 0.79,
             "teamId": "carlin-1"
         },
         {
             "name": "Erich Szaboliz",
             "id": "erich-szaboliz",
-            "talent": 0.6,
+            "talent": 0.62,
             "teamId": "carlin-1"
         },
         {
             "name": "Otávio Almeida Rodrigues",
             "id": "otavio-almeida-rodrigues",
-            "talent": 0.6,
+            "talent": 0.65,
             "teamId": "fedzet-1"
         },
         {
             "name": "Martin Šnajdr",
             "id": "martin-najdr",
-            "talent": 0.6,
+            "talent": 0.64,
             "teamId": "fedzet-1"
         },
         {
             "name": "Florian Müller",
             "id": "florian-muller",
-            "talent": 0.6,
+            "talent": 0.68,
             "teamId": "eagle-1"
         },
         {
             "name": "Nobuyoshi Nakayama",
             "id": "nobuyoshi-nakayama",
-            "talent": 0.6,
+            "talent": 0.69,
             "teamId": "eagle-1"
         },
         {
             "name": "Adriano Bruno",
             "id": "adriano-bruno",
-            "talent": 0.67,
+            "talent": 0.74,
             "teamId": "ludvig-1"
         },
         {
             "name": "Harley Porter",
             "id": "harley-porter",
-            "talent": 0.64,
+            "talent": 0.65,
             "teamId": "ludvig-1"
         },
         {
             "name": "Tobiasz Dąbrowski",
             "id": "tobiasz-d-browski",
-            "talent": 0.64,
+            "talent": 0.67,
             "teamId": "almera-1"
         },
         {
             "name": "Apolinario Sevilla Orozco",
             "id": "apolinario-sevilla-orozco",
-            "talent": 0.62,
+            "talent": 0.63,
             "teamId": "almera-1"
         },
         {
@@ -280,9 +280,9 @@
         "engId": "audi-1"
     }],
     "track": {
-        "name": "Australian",
-        "und": 2,
-        "aero": 1,
-        "eng": 1
+        "name": "Belgian",
+        "und": 1,
+        "aero": 2,
+        "eng": 2
     }
 }
